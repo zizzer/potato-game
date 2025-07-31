@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potato Syllable Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="potatoes">
+            <img src="potato.png" alt="Default Potato" class="potato-img" id="potato-default">
+            <img src="1.jpg" alt="Potato 1" class="potato-img hidden" id="potato-po">
+            <img src="2.jpg" alt="Potato 2" class="potato-img hidden" id="potato-ta">
+            <img src="3.jpg" alt="Potato 3" class="potato-img hidden" id="potato-to">
+            <img src="4.jpg" alt="Special Potato" class="potato-img" id="potato-special">
+        </div>
+        <audio id="bumbum" src="bumbum.mp3"></audio>
+        <div class="syllables">
+            <div class="syllable" id="po">PO</div>
+            <div class="syllable" id="ta">TA</div>
+            <div class="syllable" id="to">TO</div>
+        </div>
+        <div class="instructions">
+            <p>Press LEFT for "PO", UP for "TA", RIGHT for "TO"</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
