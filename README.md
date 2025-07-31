@@ -2,6 +2,8 @@
 
 A fun, interactive web game that helps children learn syllables using a Makey Makey device and potato-themed animations. The game provides visual and audio feedback for each syllable of the word "potato" with a special surprise when all syllables are triggered simultaneously.
 
+**[Play Now!](https://zizzer.github.io/potato-game/)**
+
 ## Features
 
 - Interactive syllable playback (PO-TA-TO)
